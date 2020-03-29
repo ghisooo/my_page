@@ -16,20 +16,21 @@
   background: #555;
 }
 
-html {
+#root{
+  height:100vh;
+  width:100vw;
+}
+html{
+  height:100vh;
   font-size: 62.5%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
-
-.theme-daytime {
-  background-color: #e3fdfd;
-  color: #393e46;
-  border-bottom-color:white;
+body{
+  height:100vh;
 }
 
-
 header {
-  padding: 2em 0;
+  padding: 2.2rem 0;
 }
 
 header .nav-list {
@@ -128,17 +129,17 @@ header.nav-root {
 }
 
 #body-set {
-  padding:177px 0 120px;
+  padding: 18rem 0 8rem;
 }
 
-@media (min-width:992px) {
+@media (min-width:767px) {
   #body-set {
-    padding:100px 0 130px;
+    padding: 11rem 0 12rem;
   }
 }
 
 .skill-img {
-  max-width:400px;
+  max-width: 400px;
   width: 25%;
   border-radius: 50%;
   float: left;
@@ -146,37 +147,40 @@ header.nav-root {
 }
 
 .describe-img {
-  max-width:200px;
+  max-width: 200px;
   width: 25%;
   border-radius: 50%;
   float: right;
   margin-left: 30px;
 }
 
-#footer-set{
+#footer-set {
   opacity: .95;
-  padding:1rem 0 1rem;
+  padding: 1rem 0 1rem;
   font-family: 'Sarabun',
-  sans-serif;
-  font-weight:600;
-  font-size:1.5rem;
+    sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 @media (min-width:992px) {
   #footer-set {
-    font-weight:600;
-    font-size:2rem;
+    font-weight: 600;
+    font-size: 2.6rem;
   }
 }
 
 #footer-theme-set {
-  right:3%;
+  right: 3%;
 }
+
 #footer-theme-set img {
-  display:inline-block;
+  display: inline-block;
 }
+
 #footer-theme-set p {
-  font-size: 1em;font-family: 'Sarabun', sans-serif;
+  font-size: 1em;
+  font-family: 'Sarabun', sans-serif;
   display: inline-block;
 }
 
@@ -200,6 +204,7 @@ header.nav-root {
   .container {
     max-width: 980px
   }
+
   .col-xs-4,
   .col-md-4 {
     float: left;
@@ -212,7 +217,7 @@ header.nav-root {
   transition: all .5s ease-in-out
 }
 
-#header-icons-set{
+#header-icons-set {
   padding-left: 50px
 }
 
@@ -225,7 +230,7 @@ header.nav-root {
 #programmer-img-holder {
   margin: 0 auto;
   max-width: 550px;
-  padding:0 0 10em;
+  padding: 0 0 10em;
   overflow: hidden
 }
 
@@ -246,7 +251,7 @@ header.nav-root {
   font-size: 2.4rem;
   font-weight: 600;
   font-family: 'Sarabun',
-  sans-serif;
+    sans-serif;
 }
 
 @media (min-width:992px) {
@@ -256,7 +261,7 @@ header.nav-root {
     font-size: 3.3rem;
     font-weight: 600;
     font-family: 'Sarabun',
-    sans-serif;
+      sans-serif;
   }
 }
 
@@ -267,7 +272,7 @@ header.nav-root {
   font-size: 2rem;
   font-weight: 200;
   font-family: 'Sarabun',
-  sans-serif;
+    sans-serif;
 }
 
 @media (min-width:992px) {
@@ -278,7 +283,7 @@ header.nav-root {
     font-size: 2.6rem;
     font-weight: 200;
     font-family: 'Sarabun',
-    sans-serif;
+      sans-serif;
   }
 }
 
